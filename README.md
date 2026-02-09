@@ -1,5 +1,5 @@
 # geist-pixel-font-sample
-
+Preview here: [link](https://deepanshu44.github.io/geist-pixel-font-sample/)
 ![Geist Pixel Font Sample](vercel_geist_pixel_font.png)
 
 Just a preview of Vercel's geist pixel font that was recently released.
