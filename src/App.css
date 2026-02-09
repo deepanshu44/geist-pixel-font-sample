@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+    background-color: #111;
+    color: lightgray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+    font-size: 8em;
+    text-align: left;
+    width: fit-content;
+    span {
+    }
+
+    #id1 {
+	font-family: "Geist-Grid";
+	text-shadow: 4px 4px green;
+
+    }
+    #id2 {
+	font-family: "Geist-Circle";
+	text-shadow: 4px 4px gray;
+	/* color: black; */
+	/* -webkit-text-stroke: 1px green; */
+    }
+    #id3 {
+	font-family: "Geist-Line";
+    }
+    #id4 {
+	font-family: "Geist-Square";
+	color: #082b00;
+	-webkit-text-stroke: 1px lime;
+    }
+    #id5 {
+	font-family: "Geist-Triangle";
+    }
+}
+
+cite{
+    font-size: xx-large;
+}
+.header{
+    width: 320px;
+    float: right;
+    padding: 12px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    .item1{
+	flex:1;
+	margin-right: 2px;
+    }
+    .item2{
+	flex: 2;
+    }
+}
+a{
+    color: lightblue;
+    text-decoration: none;
+    display: block;
+}
+
+@font-face{
+    font-family:"Geist-Grid";
+    src:url("font/geist-font-v1.7.0/geist-font/GeistPixel/webfonts/GeistPixel-Grid.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display:swap;
+}
+@font-face{
+    font-family:"Geist-Circle";
+    src:url("font/geist-font-v1.7.0/geist-font/GeistPixel/webfonts/GeistPixel-Circle.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display:swap;
+}
+@font-face{
+    font-family:"Geist-Line";
+    src:url("font/geist-font-v1.7.0/geist-font/GeistPixel/webfonts/GeistPixel-Line.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display:swap;
+}
+@font-face{
+    font-family:"Geist-Square";
+    src:url("font/geist-font-v1.7.0/geist-font/GeistPixel/webfonts/GeistPixel-Square.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display:swap;
+}
+@font-face{
+    font-family:"Geist-Triangle";
+    src:url("font/geist-font-v1.7.0/geist-font/GeistPixel/webfonts/GeistPixel-Triangle.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display:swap;
+}
