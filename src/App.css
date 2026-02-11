@@ -43,16 +43,22 @@ body {
 	font-family: "Geist-Triangle";
     }
 }
-
+cite{
+    font-size: xx-large;
+}
 /* Mobile: Scale down for smaller screens */
 @media (max-width: 767.98px){
    .container{
       font-size: 4em;
    }
+	cite {
+	font-size: xx-small;
+	display: block;
+	margin-bottom: 4px;
+	margin-top: -4px;
+    }
 }
-cite{
-    font-size: xx-large;
-}
+
 .header{
     width: 320px;
     float: right;
